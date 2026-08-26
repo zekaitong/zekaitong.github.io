@@ -10,10 +10,12 @@
   </head>
 
   <!-- Body -->
-  <body class="{% if site.navbar_fixed %}fixed-top-nav{% endif %} {% unless site.footer_fixed %}sticky-bottom-footer{% endunless %}">
+  <body class="{% if site.show_navbar and site.navbar_fixed %}fixed-top-nav{% endif %} {% unless site.footer_fixed %}sticky-bottom-footer{% endunless %}">
 
     <!-- Header -->
+    {%- if site.show_navbar %}
     {%- include header.html %}
+    {%- endif %}
 
     <!-- Content -->
     <div class="container mt-5">

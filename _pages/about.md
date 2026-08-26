@@ -2,25 +2,45 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
 
-profile:
-  align: right
-  image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
-  address: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
-
-news: true  # includes a list of news items
-latest_posts: true  # includes a list of the newest posts
-selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true  # includes social icons at the bottom of the page
+news: false
+latest_posts: false
+selected_papers: false
+social: false
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+<div class="row align-items-start">
+  <div class="col-sm-8 pr-sm-4">
+    <p>Hi! My name is <strong>Zekai Tong</strong>, and I am an M.S. student in Computer Science at the University of Chicago. I am currently working with Prof. <a href="https://www.bryonaragam.com/">Bryon Aragam</a> on LLM reliability and internal representations, and previously worked with Prof. <a href="https://ariholtzman.com/">Ari Holtzman</a> on LLM evaluation and interpretability.</p>
+    <p>My research interests broadly center on reliable and trustworthy language models and agents. I am interested in understanding and evaluating the behavior of foundation models, as well as studying the interpretability, causal analysis, and controllability of AI systems.</p>
+    <p>I am currently preparing to apply for PhD programs starting in Fall 2027.</p>
+  </div>
+  <div class="col-sm-4 mt-3 mt-sm-0">
+    <figure class="mb-0">
+      <img src="{{ '/assets/img/zekai-tong.jpg' | relative_url }}" class="img-fluid rounded z-depth-1" alt="Zekai Tong at Grant Park in Chicago">
+      <figcaption class="small text-muted text-center mt-2">Grant Park, Chicago · Aug. 12, 2026 · Photo by Pedro</figcaption>
+    </figure>
+    <div class="text-center mt-3">
+      <p class="small mb-2"><strong>Email:</strong> <a href="mailto:zekaitong@uchicago.edu">zekaitong@uchicago.edu</a></p>
+      <div class="d-flex flex-wrap justify-content-center">
+        <span class="btn btn-outline-secondary disabled profile-link-button mx-1" aria-disabled="true" aria-label="CV coming soon" title="CV coming soon"><i class="ai ai-cv" aria-hidden="true"></i></span>
+        <a class="btn btn-outline-primary profile-link-button mx-1" href="https://github.com/zekaitong" aria-label="GitHub" title="GitHub"><i class="fab fa-github" aria-hidden="true"></i></a>
+        <a class="btn btn-outline-primary profile-link-button mx-1" href="https://scholar.google.com/citations?user=MnThYtEAAAAJ" aria-label="Google Scholar" title="Google Scholar"><i class="ai ai-google-scholar" aria-hidden="true"></i></a>
+      </div>
+    </div>
+  </div>
+</div>
 
-Put your address / P.O. box / other info right below your picture. You can also disable any these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+<h2 class="mt-5">Publication</h2>
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+<div class="row align-items-center mt-3">
+  <div class="col-sm-5 mb-3 mb-sm-0">
+    <img src="{{ '/assets/img/bread-teaser.png' | relative_url }}" class="img-fluid rounded z-depth-1" alt="Illustration for The Text Uncanny Valley" loading="lazy">
+  </div>
+  <div class="col-sm-7">
+    <p class="mb-2"><strong>The Text Uncanny Valley: Non-Monotonic Performance Degradation in LLM Information Retrieval</strong></p>
+    <p class="mb-1"><strong>Zekai Tong</strong>, Ruiyao Xu, Aryan Shrivastava, Chenhao Tan, Ari Holtzman</p>
+    <p class="mb-2"><em>arXiv preprint</em>, 2026</p>
+    <p class="mb-0"><a href="https://arxiv.org/abs/2605.07186">Paper</a></p>
+  </div>
+</div>
