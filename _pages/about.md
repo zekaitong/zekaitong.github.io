@@ -11,7 +11,7 @@ social: false
 
 <div class="row align-items-start">
   <div class="col-sm-8 pr-sm-4">
-    <p>Hi! My name is <strong>Zekai Tong</strong>, and I am an M.S. student in Computer Science at the University of Chicago. I am currently working with Prof. <a href="https://www.bryonaragam.com/">Bryon Aragam</a> on LLM reliability and internal representations, and previously worked with Prof. <a href="https://ariholtzman.com/">Ari Holtzman</a> on LLM evaluation and interpretability.</p>
+    <p>Hi! My name is <strong>Zekai Tong</strong>, and I am an M.S. student in Computer Science at the University of Chicago. I am currently advised by Prof. <a href="https://www.bryonaragam.com/?utm_source=chatgpt.com">Bryon Aragam</a>. I previously worked with Prof. <a href="https://ariholtzman.com/">Ari Holtzman</a> on LLM evaluation and interpretability.</p>
     <p>My research interests broadly center on reliable and trustworthy language models and agents. I am interested in understanding and evaluating the behavior of foundation models, as well as studying the interpretability, causal analysis, and controllability of AI systems.</p>
     <p>I am currently preparing to apply for PhD programs starting in Fall 2027.</p>
   </div>
@@ -27,6 +27,7 @@ social: false
         <a class="btn btn-outline-primary profile-link-button mx-1" href="https://github.com/zekaitong" aria-label="GitHub" title="GitHub"><i class="fab fa-github" aria-hidden="true"></i></a>
         <a class="btn btn-outline-primary profile-link-button mx-1" href="https://scholar.google.com/citations?user=MnThYtEAAAAJ" aria-label="Google Scholar" title="Google Scholar"><i class="ai ai-google-scholar" aria-hidden="true"></i></a>
       </div>
+      <p class="small text-muted font-italic mt-3 mb-0">“See the world as it is, and love it still through all of this.”</p>
     </div>
   </div>
 </div>
